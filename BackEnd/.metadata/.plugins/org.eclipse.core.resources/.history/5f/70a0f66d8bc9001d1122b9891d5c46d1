@@ -1,0 +1,5 @@
+package com.gusdalf.tool.exceptions;
+
+public class ProjectIdExceptionResponse {
+
+}
