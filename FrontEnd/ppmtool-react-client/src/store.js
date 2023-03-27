@@ -1,5 +1,4 @@
 import { createStore, applyMiddleware, compose } from "redux";
-import { configureStore } from "@reduxjs/toolkit";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers";
 
@@ -8,14 +7,15 @@ const middleware = [thunk];
 
 let store;
 
-const ReactReduxDevTools =
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
-
-if (window.navigator.userAgent.includes("Chrome") && ReactReduxDevTools) {
+if (window.navigator.userAgent.includes("Chrome")) {
   store = createStore(
     rootReducer,
     initalState,
-    compose(applyMiddleware(...middleware), ReactReduxDevTools)
+    compose(
+      applyMiddleware(...middleware),
+      window.__REDUX_DEVTOOLS_EXTENSION__ &&
+        window.__REDUX_DEVTOOLS_EXTENSION__()
+    )
   );
 } else {
   store = createStore(
