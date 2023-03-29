@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=E\:\\Development\\AgilePPMTool\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;
+GitRepositoriesView.GitDirectories=C\:\\Developpement\\AgilePPMTool\\.git;C\:\\Developpement\\AgilePPMTool\\BackEnd\\.git;
+GitRepositoriesView.GitDirectories.relative=C\:\\Developpement\\AgilePPMTool\\.git;.git;
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -44,4 +44,18 @@
     <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="com.gusdalf.tool.exceptions.ProjectIdException"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="com.gusdalf.tool.domain.Backlog"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonIgnore"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="com.gusdalf.tool.repositories.BacklogRepository"/>
+    <fullyQualifiedTypeName name="com.gusdalf.tool.repositories.ProjectTaskRepository"/>
+    <fullyQualifiedTypeName name="com.gusdalf.tool.services.ProjectTaskService"/>
+    <fullyQualifiedTypeName name="com.gusdalf.tool.domain.ProjectTask"/>
+    <fullyQualifiedTypeName name="java.security.Principal"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PatchMapping"/>
+    <fullyQualifiedTypeName name="exceptions.ProjectNotFoundException"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 </qualifiedTypeNameHistroy>

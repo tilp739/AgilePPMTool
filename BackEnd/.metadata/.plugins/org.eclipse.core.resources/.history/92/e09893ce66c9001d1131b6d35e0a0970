@@ -1,5 +1,0 @@
-package com.gusdalf.tool.repositories;
-
-public interface ProjectRepository {
-
-}

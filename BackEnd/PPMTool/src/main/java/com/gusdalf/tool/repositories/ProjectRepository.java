@@ -1,18 +1,14 @@
 package com.gusdalf.tool.repositories;
 
+import com.gusdalf.tool.domain.Project;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gusdalf.tool.domain.Project;
-
 @Repository
-public interface ProjectRepository extends CrudRepository<Project,Long> {
+public interface ProjectRepository extends CrudRepository<Project, Long> {
 
+    Project findByProjectIdentifier(String projectId);
 
-	Project findByProjectIdentifier(String projectId);
-	
-	@Override
-	Iterable<Project> findAll();
-	
-
+    @Override
+    Iterable<Project> findAll();
 }
